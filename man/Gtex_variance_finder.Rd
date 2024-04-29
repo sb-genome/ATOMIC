@@ -18,5 +18,5 @@ Summary Statistics of the SNP,Gene and Tissue
 A function in R that retrieves a summary of SNP-gene-tissue associations from the Genotype-Tissue Expression GTEx dataset.
 }
 \examples{
-GTEx_Summary(SNP = "chr3_40_G_T_b38", Gene="ENSG00000182179.12", Tissue="Whole_Blood");
+Gtex_variance_finder <- function(Gene = "ENSG00000182179.12 " , Tissue = "Whole_Blood")
 }

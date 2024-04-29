@@ -21,7 +21,7 @@ GTEx_Summary <- function(SNP,Gene,Tissue)
 #' @param Tissue The Tissue of Interest as per GTEx Portal
 #' @return Summary Statistics of the SNP,Gene and Tissue
 #' @examples 
-#' GTEx_Summary(SNP = "chr3_40_G_T_b38", Gene="ENSG00000182179.12", Tissue="Whole_Blood");
+#' Gtex_variance_finder <- function(Gene = "ENSG00000182179.12 " , Tissue = "Whole_Blood")
 #' @export
 Gtex_variance_finder <- function(Gene,Tissue)
 {
@@ -35,7 +35,7 @@ Gtex_variance_finder <- function(Gene,Tissue)
 #' @param Tissue The Tissue of Interest as per GTEx Portal
 #' @return Summary Statistics of the SNP,Gene and Tissue
 #' @examples 
-#' GTEx_Summary(SNP = "chr3_40_G_T_b38", Gene="ENSG00000182179.12", Tissue="Whole_Blood");
+#' Gtex_Sample_Finder(Tissue="Whole_Blood");
 #' @export
 Gtex_Sample_Finder <- function(Tissue)
 {

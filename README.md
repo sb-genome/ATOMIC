@@ -1,2 +1,2 @@
-# SBGenomeTools
- Statistical Tools From Samsiddhi Bhattacharjee Lab
+# ATOMIC
+ Analytic Tools for Omics Mining and Integrative Computation

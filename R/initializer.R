@@ -51,7 +51,7 @@ g_initialize <- function(func_name){
     RSeval(expr = "source('~/Rcode/Genomic_Regions/SNP_To_Allele.R')" , connec)
     RSeval(expr = "source('/home/diptanil/Rcode/Genomic_Regions/Lifthg19Tohg38.R')" , connec)
   }
-  
+  return(0)
 }
 
 #' Closing Function

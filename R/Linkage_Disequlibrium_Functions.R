@@ -19,7 +19,6 @@
 #' population = "EUR"
 #' choice = "variant_matrix"
 #' calculate_LD(snp_set_1 = snp_set_1 , snp_set_2 = snp_set_2, choice="variant_matrix" ,population = "EUR")
-
 #' @export
 calculate_LD <- function(snp_set_1 , snp_set_2 , choice , population)
 {
