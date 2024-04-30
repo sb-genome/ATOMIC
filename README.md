@@ -39,7 +39,7 @@ plot(de_results)
 ```
 For detailed documentation and examples, please refer to the official ATOMIC documentation.
 
-Contributing
+# Contributing
 We welcome contributions from the community to make ATOMIC even better! Whether it's bug fixes, new features, or documentation improvements, your contributions are valuable. Please see the contribution guidelines for more information on how to contribute.
 
 # Contact
