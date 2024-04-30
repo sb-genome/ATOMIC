@@ -32,7 +32,7 @@ g_initialize(c("Gtex_Summary" , "Haploreg")));
 # g_initialize( c("Gtex_Summary", "1000GP_LD_Summary", "Gtex_LD_Summary" , "UKBB_BP_Enrichment" , "Haploreg" , "Genomic_Regions" ));
 
 # Perform Gtex Summary Analysis
-GTEx_Summary(SNP = "chr3_40_G_T_b38", Gene="ENSG00000182179.12", Tissue="Whole_Blood");
+GTEx_Summary(SNP = "chr3_49773614_G_A_b38", Gene="ENSG00000182179.12", Tissue="Whole_Blood");
 
 # Perform Haploreg Data Mining
 snpToInfo(rsids = "rs10")
