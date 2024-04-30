@@ -20,22 +20,26 @@ install.packages("remotes")
 
 remotes::install_github("sb-genome/ATOMIC")
 ```
-Usage
+# Usage
 Here's a quick example to get you started with using ATOMIC:
 
 ```R
-Copy code
 # Load the ATOMIC package
 library(ATOMIC)
 
-# Load your omics datasets (e.g., gene expression data)
-data <- read.csv("your_omics_data.csv")
+# Load the dependances for the genre of functions that would be used.
+g_initialize(c("Gtex_Summary" , "Haploreg")));
+# g_initialize( c("Gtex_Summary", "1000GP_LD_Summary", "Gtex_LD_Summary" , "UKBB_BP_Enrichment" , "Haploreg" , "Genomic_Regions" ));
 
-# Perform differential expression analysis
-de_results <- perform_differential_expression(data)
+# Perform Gtex Summary Analysis
+GTEx_Summary(SNP = "chr3_40_G_T_b38", Gene="ENSG00000182179.12", Tissue="Whole_Blood");
 
-# Visualize the results
-plot(de_results)
+# Perform Haploreg Data Mining
+snpToInfo(rsids = "rs10")
+snpToInfo(rsids = c("rs10","rs3","rs4","rs10047249"))
+
+# Close the connection to the Servers
+g_free(connec)
 ```
 For detailed documentation and examples, please refer to the official ATOMIC documentation.
 
