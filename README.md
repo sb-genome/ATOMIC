@@ -44,7 +44,6 @@ We welcome contributions from the community to make ATOMIC even better! Whether 
 
 # Contact
 If you have any questions, feedback, or suggestions, feel free to contact us. We'd love to hear from you!
-sb1@nibmg.ac.in
-db2@nibmg.ac.in
+sb1@nibmg.ac.in , db2@nibmg.ac.in
 
 Happy analyzing with ATOMIC! 🧬🔬
