@@ -5,12 +5,9 @@ Welcome to the GitHub page for the ATOMIC package!
 ATOMIC (Analytic Tools for Omics Mining and Integrative Computation) is a comprehensive R package designed to facilitate the analysis and integration of omics data. Whether you're working with genomics, transcriptomics, proteomics, or metabolomics data, ATOMIC provides a suite of powerful tools to streamline your analytical workflows.
 
 # Features
-Data Integration: Combine multiple omics datasets for comprehensive analysis.
-Statistical Analysis: Perform differential expression, pathway enrichment, and other statistical analyses.
-Visualization: Generate high-quality plots and visualizations to interpret your results.
-Machine Learning: Apply machine learning algorithms for predictive modeling and classification tasks.
-Modular Architecture: Modular design allows for easy extension and customization.
-Installation
+ATOMIC is a new R package designed to smoothly integrate heterogeneous -datasets for efficient mining and analysis. Currently in its early phases, it provides functionalities specifically designed for analyzing massive datasets and is connected to the NIBMG, Kalyani LAN for beta testing. While still in development, its extensive tools promise to improve multiomic analysis. Future goals include making it available to all users, allowing a larger community to take advantage of its capabilities for complex data interpretation and integration.
+
+# Installation
 To install ATOMIC from GitHub, you'll need to use the remotes package. If you haven't already installed remotes, you can do so by running:
 
 ```R
