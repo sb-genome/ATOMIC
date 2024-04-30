@@ -13,18 +13,17 @@ Modular Architecture: Modular design allows for easy extension and customization
 Installation
 To install ATOMIC from GitHub, you'll need to use the remotes package. If you haven't already installed remotes, you can do so by running:
 
-``R
-Copy code
+```R
+
 install.packages("remotes")
 Once you have remotes installed, you can install ATOMIC by running the following command:
 
-``R
-Copy code
 remotes::install_github("sb-genome/ATOMIC")
+```
 Usage
 Here's a quick example to get you started with using ATOMIC:
 
-``R
+```R
 Copy code
 # Load the ATOMIC package
 library(ATOMIC)
@@ -37,6 +36,7 @@ de_results <- perform_differential_expression(data)
 
 # Visualize the results
 plot(de_results)
+```
 For detailed documentation and examples, please refer to the official ATOMIC documentation.
 
 Contributing
