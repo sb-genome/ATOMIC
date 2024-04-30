@@ -16,7 +16,7 @@ To install ATOMIC from GitHub, you'll need to use the remotes package. If you ha
 ```R
 
 install.packages("remotes")
-Once you have remotes installed, you can install ATOMIC by running the following command:
+#Once you have remotes installed, you can install ATOMIC by running the following command:
 
 remotes::install_github("sb-genome/ATOMIC")
 ```
@@ -42,10 +42,9 @@ For detailed documentation and examples, please refer to the official ATOMIC doc
 Contributing
 We welcome contributions from the community to make ATOMIC even better! Whether it's bug fixes, new features, or documentation improvements, your contributions are valuable. Please see the contribution guidelines for more information on how to contribute.
 
-# License
-ATOMIC is released under the MIT License.
-
 # Contact
 If you have any questions, feedback, or suggestions, feel free to contact us. We'd love to hear from you!
+sb1@nibmg.ac.in
+db2@nibmg.ac.in
 
 Happy analyzing with ATOMIC! 🧬🔬
